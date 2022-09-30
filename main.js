@@ -65,7 +65,7 @@ if(dateFromLocal = localStorage.getItem(storage_date)){
 
         const task_delete_el2 = document.createElement("button");
         task_delete_el2.classList.add("delete");
-        task_delete_el2.innerHTML = "Delete";
+        task_delete_el2.innerHTML = "Completed";
 
         task_actions_el2.appendChild(task_edit_el2);
         task_actions_el2.appendChild(task_delete_el2);
@@ -230,7 +230,7 @@ window.addEventListener('load', () => {
 
         const task_delete_el = document.createElement("button");
         task_delete_el.classList.add("delete");
-        task_delete_el.innerHTML = "Delete";
+        task_delete_el.innerHTML = "Completed";
 
         task_actions_el.appendChild(task_edit_el);
         task_actions_el.appendChild(task_delete_el);
